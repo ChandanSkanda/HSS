@@ -139,8 +139,7 @@ article p { font-size: 1.08rem; margin: 0 0 22px; max-width: 62ch; }
 }
 .hero-photo img { display: block; width: 100%; height: auto; }
 
-.photo-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 32px 0; }
-@media (max-width: 560px) { .photo-row { grid-template-columns: 1fr; } }
+.photo-row { display: grid; grid-template-columns: 1fr; gap: 16px; margin: 32px 0; }
 
 figure { margin: 0; border: 1px solid var(--card-line); padding: 8px; background: var(--bg-alt); }
 figure img { display: block; width: 100%; height: auto; }
